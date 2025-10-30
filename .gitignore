@@ -1,0 +1,40 @@
+# Java / Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+*.iml
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.ipr
+*.iws
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+spring.log
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.DS_Store
+
+# Environment
+.env
+.env.*
+
