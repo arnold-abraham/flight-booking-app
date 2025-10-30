@@ -60,7 +60,7 @@ On startup a default admin is created:
 Send `Authorization: Bearer <token>` for protected endpoints.
 
 ## Notes
-- Database: PostgreSQL (no H2). A local dev DB is provided via `docker-compose.yml`.
+- Database: PostgreSQL. A local dev DB is provided via `docker-compose.yml`.
 - OpenAPI/Swagger available at `/swagger-ui.html`.
 - JPA schema is auto-managed (`ddl-auto=update`) for dev. For prod, use migrations and externalized secrets.
 
