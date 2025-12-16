@@ -64,5 +64,16 @@ Send `Authorization: Bearer <token>` for protected endpoints.
 - OpenAPI/Swagger available at `/swagger-ui.html`.
 - JPA schema is auto-managed (`ddl-auto=update`) for dev. For prod, use migrations and externalized secrets.
 
-## Tests
-The test suite uses Spring Boot test. If you prefer DB-agnostic tests, enable Testcontainers for PostgreSQL (see `pom.xml` suggestions) so tests do not require a locally running DB.
+## 🖼️ Screenshots
+
+### All Flights (Admin view)
+![All Flights](docs/screenshots/flights.png)
+
+### Create Flight (Admin)
+![Create Flight](docs/screenshots/create-flight.png)
+
+### My Bookings
+![My Bookings](docs/screenshots/bookings.png)
+
+### Search Flights
+![Search Flights](docs/screenshots/search.png)
