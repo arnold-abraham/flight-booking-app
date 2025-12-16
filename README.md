@@ -64,7 +64,7 @@ Send `Authorization: Bearer <token>` for protected endpoints.
 - OpenAPI/Swagger available at `/swagger-ui.html`.
 - JPA schema is auto-managed (`ddl-auto=update`) for dev. For prod, use migrations and externalized secrets.
 
-## 🖼️ Screenshots
+## Screenshots
 
 ### All Flights (Admin view)
 ![All Flights](docs/screenshots/flights.png)
